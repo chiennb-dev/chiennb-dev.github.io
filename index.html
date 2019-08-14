@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>\\imchiennb</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>\\chiennb</title>
 	<style>
-		*{
+		* {
 			padding: 0;
 			margin: 0;
 			box-sizing: border-box;
 		}
-		body{font-family: sans-serif;}
-		h1{
-			padding: 30px;
-			color: white;
-			background: gray;
-			font-weight: bold;
+
+		body {
+			min-height: 100vh;
+			background: linear-gradient(to right, #feca57 0%, #48dbfb 100%)
+		}
+
+		.container {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+		}
+
+		h1 {
 			text-align: center;
+			padding: 30px;
+			text-transform: uppercase;
+			background:linear-gradient(to right, #30CFD0 0%, #330867 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
 		}
-		.container{
+
+		img {
 			width: 100%;
-			display: flex;
-			justify-content: center;
-		}
-		img{
-			width: 30%;
-			margin: 30px 20px;
+			grid-column-start: 2;
+			grid-column-end: 3;
+			grid-gap: 20px;
+			box-shadow: 15px 5px 30px #54a0ff;
+			margin-top: 20px;
 		}
 	</style>
 </head>
+
 <body>
 	<h1>WELCOME TO MY FIRST REPOSITORY ON GITHUB</h1>
 	<div class="container">
 		<img src="https://i.pinimg.com/originals/8e/34/e3/8e34e3e4a570228fecaf7ce3c81328f0.jpg" alt="sontung-mtp">
-		<img src="http://a9.vietbao.vn/images/vn999/170/2017/10/20171029-son-tung-m-tp-hoa-doanh-nhan-thanh-dat-trong-su-kien-1.jpg" alt="">
+		<!-- <img src="http://a9.vietbao.vn/images/vn999/170/2017/10/20171029-son-tung-m-tp-hoa-doanh-nhan-thanh-dat-trong-su-kien-1.jpg"
+			alt=""> -->
 	</div>
 </body>
+
 </html>
